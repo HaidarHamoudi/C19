@@ -1,0 +1,34 @@
+import 'package:flutter/material.dart';
+
+import 'package:c19/core/util/c19_theme.dart';
+import '../../../../app_localizations.dart';
+
+class MessageDisplay extends StatelessWidget {
+  const MessageDisplay({Key? key, required this.message}) : super(key: key);
+  final String message;
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: EdgeInsets.only(
+        top: MediaQuery.of(context).size.height / 6,
+      ),
+      child: Center(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisSize: MainAxisSize.max,
+          children: [
+            Text(
+              AppLocalizations.of(context)!.translate(message)!,
+              style: C19Theme.lightTextTheme.headline6!.copyWith(
+                  fontSize: 18.0,
+                  fontWeight: FontWeight.bold,
+                  fontStyle: FontStyle.normal),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}

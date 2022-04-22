@@ -1,0 +1,44 @@
+{
+  "bottomBarCaseTitle": "الحالات",
+  "bottomBarNewsTitle": "الاخبار",
+
+  "covidCasesAppBarTitle": "تعقب COVID-19",
+  "covidCasesWorldwideTitle": "في جميع أنحاء العالم",
+  "covidCasesCountryTitle": "الحالات حسب الدولة",
+
+  "covidCasesWorldwideHeading0": "الحالات المصابة بفيروس كورونا",
+  "covidCasesWorldwideHeading1": "في جميع أنحاء العالم",
+
+  "loadingMessage": "جاري الحصول على النتائج ، يرجى الانتظار قليلاً ...",
+
+  "covidCasesWorldwideCardHeading": "إجمالي الحالات المؤكدة",
+  "activeCases": "الحالات المصابة حاليا",
+  "recovered": "المعافاة",
+  "deaths": "حالات الوفاة",
+
+  "ratioText0": "نسبة",
+  "ratioText1": "التعافي",
+  "ratioText2": "و",
+  "ratioText3": "حالات الوفاة هي",
+  "ratioText4": "عالميا",
+
+  "updatedAtText": "آخر تحديث في",
+  "timePrefixText": "في ",
+  "timeSuffixText": "",
+
+  "covidNewsAppBarTitle": "COVID-19 أحدث الأخبار",
+  "covidNewsWorldwideTitle": "الأخبار العالمية",
+  "covidNewsUsaTitle": "USA - أخبار الكوفيد",
+
+  "covidDetectionAppBarTitle": "كشف الكورونا",
+  "covidDetectionFloatingActionBubble1": "رجوع",
+  "covidDetectionFloatingActionBubble2": "التقط صورة",
+  "covidDetectionFloatingActionBubble3": "اختر من المعرض",
+  "covidDetectionCovidDetected": "تم اكتشاف الفيروس",
+  "covidDetectionReportNormal": "تقريرك سليم",
+  "covidDetectionUnknownResult": "حالة غير معرفة",
+
+  "serverFailureMessage": "فشل الخادم. من فضلك حاول مرة أخرى.",
+  "cacheFailureMessage": "فشل إظهار البيانات من ذاكرة التخزين المؤقت. يرجى تشغيل wifi الخاص بك.",
+  "unexpectedFailureMessage": "خطأ غير متوقع. حاول مرة اخرى."
+}
